@@ -5,7 +5,7 @@ using TMPro;
 
 public class Player : MonoBehaviour
 {
-    public float Speed;
+    private float Speed = 20;
     public Game Game;
     public Transform SnakeHead;
     public int value;
@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     Vector3 tempVect = new Vector3(0, 0, 1);
     private Vector3 _previousMousePosition;
     public TextMeshPro PointsText;
-    public int Length = 1;
+    private int Length = 1;
     private SnakeTail componentSnakeTail;
     
     
